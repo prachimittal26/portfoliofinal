@@ -55,7 +55,7 @@ export const BentoGridItem = ({
     const handleCopy=()=>{
     //   const text = "hsu@jsmastery.pro";
     // navigator.clipboard.writeText(text);
-      navigator.clipboard.writeText('contact@jsmastery.pro');
+      navigator.clipboard.writeText('prachimittal263@gmail.com');
 
       setCopied(true);
     }
@@ -118,7 +118,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-8">
-                {['React.js', 'Next.js', 'TypeScript'].map((item) => (
+                {['React.js', 'Next.js', 'TypeScript','DSA'].map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
@@ -131,7 +131,7 @@ export const BentoGridItem = ({
                 
               <div className="flex flex-col gap-3 lg:gap-8">
               <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                {['VueJS','AWS','MongoDB'].map((item) => (
+                {['Javascript','AWS','MySQL','Blockchain'].map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
@@ -139,6 +139,18 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
+              </div>
+
+              <div className="flex flex-col gap-3 lg:gap-8">
+                {['REST API', 'C++', 'DBMS','JSX'].map((item) => (
+                  <span
+                    key={item}
+                    className="py-2 lg:py4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
+                    {item}
+                  </span>
+                ))}
+                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
               </div>
             </div>
           )}

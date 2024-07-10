@@ -21,7 +21,7 @@ const Hero = () => {
     <div className="flex justify-center relative my-20 z-10">
         <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                Dynamic web magic with next.js
+            On a journey to never stop learning
             </h2>
 
             <TextGenerateEffect
@@ -30,7 +30,9 @@ const Hero = () => {
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                Hi, I&apos;m Prachi,a Next.js Developer based in India
+                Hi, I&apos;m <b>Prachi Mittal</b>,a ReactJS Developer & final-year <b>Computer Science</b> student passionate about innovative methodologies and connecting with people. As a results-driven developer, I excel in ReactJS, HTML, CSS, JavaScript, and MySQL, with strong skills in data structures and algorithms. My analytical prowess and SQL expertise ensure precision, while my collaborative spirit helps me deliver timely, effective solutions.
+
+
             </p>
 
             <a href="#about">
