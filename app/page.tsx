@@ -24,7 +24,7 @@ const Home = () => {
 
     return () => clearTimeout(timer); // Cleanup the timer on unmount
   }, []);
-  //werty
+  //
 
   if (isLoading) {
     return <Loader />;
