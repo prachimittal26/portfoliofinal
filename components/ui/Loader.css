@@ -1,0 +1,50 @@
+/* Loader.css */
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #060231; /* Dark background */
+  }
+  
+  .loader {
+    border: 8px dotted #3e3e3e; /* Darker dotted border */
+    border-top: 8px dotted #95949e; /* Primary accent color for your portfolio */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loader-percentage {
+    margin-top: 30px;
+    font-size: 2em;
+    color: #ffffff; /* White color for percentage text */
+    letter-spacing: 0.1em;
+    animation: updatePercentage 5s linear infinite;
+    animation: fade 2s ease-in-out infinite;
+  }
+  
+  .loader-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #ffffff; /* White color for loading text */
+    /* animation: fade 2s ease-in-out infinite; */
+  }
+  
+  @keyframes fade {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
